@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses at the College</title>
+    <style>
+        table,
+        tr,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Courses at the College</h1>
+    <input id="search-field" type="text" name="search" placeholder="Search by name">
+    <button onclick="searchProduct()" type="button">Search</button>
+    <table id="container" style="border: solid;">
+        <tr style="background-color: #999;">
+            <td>Course Name</td>
+            <td>Start At</td>
+            <td>Number of Classes</td>
+            <td>Price</td>
+        </tr>
+    </table>
+    <script src="./app.js"></script>
+</body>
+
+</html>
